@@ -2,7 +2,7 @@
   "dataset_info": {
     "total_transactions": 6362620,
     "total_columns": 12,
-    "memory_mb": 1950.130578994751,
+    "memory_mb": 761.5870761871338,
     "time_range_hours": "1-743",
     "time_range_days": 30.916666666666668
   },
