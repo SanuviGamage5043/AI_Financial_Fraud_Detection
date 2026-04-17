@@ -1,0 +1,60 @@
+{
+  "dataset_info": {
+    "total_transactions": 6362620,
+    "total_columns": 12,
+    "memory_mb": 1950.130578994751,
+    "time_range_hours": "1-743",
+    "time_range_days": 30.916666666666668
+  },
+  "fraud_statistics": {
+    "fraud_count": 8213,
+    "legit_count": 6354407,
+    "fraud_percentage": 0.12908204481801522,
+    "imbalance_ratio": 773.7010836478753
+  },
+  "flagged_fraud": {
+    "flagged_count": 16,
+    "flagged_accuracy": 100.0,
+    "detection_rate": 0.1948131011810544
+  },
+  "transaction_types": {
+    "types_with_fraud": [
+      "CASH_OUT",
+      "TRANSFER"
+    ],
+    "cash_out_frauds": 4116,
+    "transfer_frauds": 4097,
+    "cash_out_percentage": 50.11567027882625,
+    "transfer_percentage": 49.88432972117375
+  },
+  "amount_analysis": {
+    "avg_legit_amount": 178197.0417274075,
+    "avg_fraud_amount": 1467967.2991403872,
+    "median_legit_amount": 74684.72,
+    "median_fraud_amount": 441423.44,
+    "amount_multiplier": 8.237888154091658
+  },
+  "customer_analysis": {
+    "unique_customers": 6353307,
+    "fraud_customers": 8213,
+    "fraud_customer_percentage": 0.12927125983365828,
+    "max_frauds_per_customer": 1
+  },
+  "destination_analysis": {
+    "fraud_to_customers": 8213,
+    "fraud_to_merchants": 0,
+    "unique_fraud_destinations": 8169,
+    "destinations_with_multiple_frauds": 44
+  },
+  "temporal_analysis": {
+    "hours_with_100_percent_fraud": [
+      "523",
+      "501",
+      "387",
+      "425",
+      "730"
+    ],
+    "hours_with_no_fraud": 2,
+    "avg_frauds_per_hour": 11.083670715249662
+  }
+}
