@@ -4,7 +4,7 @@
 ## Dataset Overview
 - **Total Transactions:** 6,362,620
 - **Time Period:** 1-743 hours (30.9 days)
-- **File Size:** 761.59 MB
+- **File Size:** 1950.13 MB
 
 ## Critical Findings
 1. **Fraud Rate:** 0.1291% (8,213 frauds)
@@ -60,6 +60,11 @@
 - Customer Separation: No fraudster appears in both train and test
 - Temporal Patterns: Captured through engineered features
 - Behavioral Features: Customer transaction history and destination risk rates
+
+### Class Imbalance Handling
+- Legitimate: 0.5006 (weight)
+- Fraud: 387.3575 (weight)
+- Strategy: Class weights applied during model training
 
 ### Saved Files
 - `cleaned_data.parquet` - Main processed dataset
