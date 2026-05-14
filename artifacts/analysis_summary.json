@@ -2,7 +2,7 @@
   "dataset_info": {
     "total_transactions": 6362620,
     "total_columns": 12,
-    "memory_mb": 1950.1305751800537,
+    "memory_mb": 1755.9588260650635,
     "time_range_hours": "1-743",
     "time_range_days": 30.916666666666668
   },
@@ -28,11 +28,11 @@
     "transfer_percentage": 49.88432972117375
   },
   "amount_analysis": {
-    "avg_legit_amount": 178197.04172740763,
-    "avg_fraud_amount": 1467967.299140387,
+    "avg_legit_amount": 178197.0417274075,
+    "avg_fraud_amount": 1467967.2991403872,
     "median_legit_amount": 74684.72,
     "median_fraud_amount": 441423.44,
-    "amount_multiplier": 8.237888154091651
+    "amount_multiplier": 8.237888154091658
   },
   "customer_analysis": {
     "unique_customers": 6353307,
